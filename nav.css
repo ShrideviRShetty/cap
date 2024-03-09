@@ -1,0 +1,16 @@
+nav{
+    height: 1;
+    background-color: rgb(2, 5, 92);
+    color: white;
+    padding: 0% 3%;
+    display: flex;
+}
+
+nav .fa-solid{
+    padding: 1% 0.5% ;
+    font-size: 160%;
+}
+
+nav p{
+    padding-right: 3%;
+}

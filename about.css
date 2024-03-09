@@ -1,0 +1,618 @@
+.facility {
+    height: 20vh;
+    padding: 7%;
+    padding-left: 3%;
+    display: flex;
+    background-color: rgb(235, 233, 233);
+}
+
+.facility h1 {
+    position: absolute;
+    font-size: 7rem;
+    color: black;
+    opacity: 0.11;
+}
+
+.facility h2 {
+    position: absolute;
+    font-size: 3rem;
+    margin-top: 8.5%;
+}
+
+.facility1 {
+    display: flex;
+    height: 80vh;
+    background-color: rgb(235, 233, 233);
+    justify-content: space-evenly;
+}
+
+.facility11 {
+    height: 78%;
+    width: 100%;
+    background-color: white;
+    margin: 1%;
+    text-align: center;
+    padding: 2%;
+    position: relative;
+}
+
+.facility11:hover {
+    background-color: orange;
+}
+
+.facility11 #i1 {
+    height: 30%;
+    width: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 0;
+    border: 2px dashed orange;
+    border-radius: 50%;
+    color: orange;
+    font-size: 4rem;
+}
+
+.facility11 h2 {
+    font-size: 1.8rem;
+    margin-left: 10%;
+    position: absolute;
+    color: rgb(84, 84, 84);
+}
+
+.facility11 p {
+    margin-top: 25%;
+    position: absolute;
+    width: 80%;
+    color: rgb(109, 109, 109);
+}
+
+.facility11 h3 {
+    margin-top: 85%;
+    color: orange;
+    opacity: 0.7;
+}
+
+#i2 {
+    padding: 10%;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    margin-bottom: 0;
+    border: 4px dashed orange;
+    border-radius: 50%;
+    color: orange;
+    font-size: 4rem;
+}
+
+.facility11:hover #i2 {
+    background-color: white;
+    border: 2px solid white;
+}
+
+.facility11:hover h2 {
+    color: white;
+}
+
+.facility11:hover p {
+    color: white;
+}
+
+.facility11:hover h3 {
+    color: white;
+    opacity: 1;
+}
+
+.button1 {
+    display: block;
+    height: 2vh;
+    background-color: rgb(235, 233, 233);
+}
+
+.button1 button {
+    font-size: 1.2rem;
+    padding: 0.9rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    margin-left: 40%;
+    border-radius: 10px;
+    border: 2px solid orange;
+    background-color: orange;
+    color: white;
+}
+
+@media screen and (max-width:400px) {
+    .facility {
+        display: block;
+        height: 5vh;
+        padding-left: 10%;
+    }
+
+    .facility h1 {
+        font-size: 2.3rem;
+        /* margin-left: 0%; */
+    }
+
+    .facility h2 {
+        font-size: 1rem;
+        margin-top: 10%;
+    }
+
+    .facility1 {
+        display: block;
+        height: 280vh;
+        padding: 3%;
+    }
+
+    .facility11 {
+        display: inline-block;
+        margin-left: 10%;
+        margin-bottom: 20%;
+        margin: 10%;
+        width: 80%;
+        height: 18%;
+    }
+
+    .facility11 h2 {
+        margin-left: 25%;
+        font-size: 1.3rem;
+    }
+
+    .facility11 p {
+        margin-left: 10%;
+        font-size: 0.9rem;
+    }
+
+    .facility11 h3 {
+        font-size: 1.2rem;
+    }
+
+    .button1 {
+        height: 10vh;
+    }
+
+    .button1 button {
+        font-size: 1rem;
+        margin-left: 30%;
+        padding: 0.7rem;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+}
+
+/* //============================================CARS============================================= */
+.cars {
+    height: 90vh;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 420px 420px auto;
+    gap: 20px;
+    background-color: rgb(235, 233, 233);
+    padding: 1.5%;
+    padding-bottom: 8%;
+}
+
+.cars1 {
+    /* border: 2px solid black; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#d1 {
+    grid-column: 1/span 2;
+    background-image: url(./images/img-1.jpg);
+
+    position: relative;
+}
+
+.button1 button {
+    position: absolute;
+    font-size: 0.6rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    background-color: rgba(50, 50, 50, 0.731);
+}
+
+#d1 button {
+    margin-left: 90%;
+    margin-top: 1%;
+}
+
+.amount {
+    position: absolute;
+    height: 6vh;
+    display: inline;
+    width: 25vh;
+
+}
+
+.amount p {
+    margin-top: 0;
+    line-height: 0.1rem;
+    color: white;
+    display: inline;
+    letter-spacing: 0.07rem;
+}
+
+.amount #a1 {
+    font-size: 0.7rem;
+}
+
+.amount #a2 {
+    font-size: 1.3rem;
+    color: orange;
+}
+
+.amount #a3,
+#a4 {
+    font-size: 0.8rem;
+}
+
+#amount1 {
+    margin-top: 32%;
+    margin-left: 1%;
+}
+
+#d2 {
+    display: none;
+}
+
+#d3 {
+    grid-row: span 2;
+    background-image: url(./images/img-4\ \(1\).jpg);
+}
+
+#d3 button {
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+#amount3 {
+    margin-top: 40%;
+    margin-left: 1%;
+}
+
+#d4 {
+    background-image: url(./images/img-2.jpg);
+}
+
+#d4 button {
+    margin-left: 23%;
+    margin-top: 1%;
+}
+
+#amount4 {
+    margin-top: 18%;
+    margin-left: 1%;
+}
+
+#d5 {
+    background-image: url(./images/img-3.jpg);
+
+}
+
+#d5 button {
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+#amount5 {
+    margin-top: 18%;
+    margin-left: 20%;
+}
+
+
+@media screen and (max-width:400px) {
+    .cars {
+        height: 120vh;
+        grid-template-columns: 25vh 25vh;
+        grid-template-rows: 25vh 20vh 60vh;
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .cars1 {
+        /* border: 2px solid red; */
+        background-position: center;
+        background-size: cover;
+    }
+
+    .amount {
+        line-height: 0.5rem;
+    }
+
+    .amount #a3 {
+        font-size: 0.4rem;
+    }
+
+    .amount #a2 {
+        font-size: 0.7rem;
+    }
+
+    #d1 {
+        grid-column: 1/span 2;
+    }
+
+    #d1 #amount1 {
+        margin-top: 42%;
+        margin-left: 0;
+    }
+
+    #d1 button {
+        margin-left: 80%;
+    }
+
+    #d2 {
+        display: none;
+    }
+
+    #d3 {
+        background-image: url(./images/img-2.jpg);
+        grid-row: span 1;
+    }
+
+    #d3 .amount {
+        margin-top: 20%;
+    }
+
+    #d3 #amount3 {
+        margin-top: 30%;
+    }
+
+    #d4 {
+        background-image: url(./images/img-3.jpg);
+    }
+
+    #d4 #amount4 {
+        margin-top: 31%;
+        margin-left: 2%;
+    }
+
+    #d5 {
+        margin-top: 1.5%;
+        grid-column: 1/span 2;
+        background-image: url(./images/img-4\ \(1\).jpg);
+
+    }
+
+    #d5 #a2 {
+        font-size: 1rem;
+    }
+
+    #d5 #amount5 #a3 {
+        font-size: 0.9rem;
+    }
+
+    #d5 #amount5 {
+        margin-top: 100%;
+        line-height: 1rem;
+        margin-left: 2%;
+    }
+
+
+}
+
+/* //================================================ABOUUT====================================== */
+.about {
+    height: 75vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(235, 233, 233);
+}
+
+.about1 {
+    height: 80%;
+    width: 70%;
+    margin: 1%;
+    position: relative;
+}
+
+#u1 {
+    width: 50%;
+}
+
+#u1 img {
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    border-radius: 40px;
+    margin-top: 13%;
+    margin-left: 11%;
+}
+
+#u1 div {
+    border: 3px solid orange;
+    height: 75%;
+    width: 80%;
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 8%;
+    margin-left: 6%;
+}
+
+#u2 {
+    width: 68%;
+}
+
+#u2 h2 {
+    font-size: 330%;
+    margin-top: 2%;
+}
+
+#u2 p {
+    font-size: 1.4vw;
+    letter-spacing: 0.05rem;
+    color: rgb(117, 116, 116);
+}
+
+@media screen and (max-width:470px) {
+    .about {
+        display: block;
+        height: 110vh;
+    }
+
+    .about1 {
+        display: inline-block;
+    }
+
+    #u1 {
+        width: 100%;
+        height: 30%;
+    }
+
+    #u1 img {
+        width: 85%;
+    }
+
+    #u2 {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #u2 h2 {
+        font-size: 2rem;
+        width: 70%;
+    }
+
+    #u2 p {
+        font-size: 3.5vw;
+    }
+    
+}
+
+/* //=============================================REVIEWS=============================================== */
+.reviews {
+    border: 2px solid black;
+    height: 50vh;
+    background-image: url(./images/img-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+#reviews {
+    color: orange;
+    font-size: 4rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 8%;
+    background-color: white;
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 30%;
+}
+
+.reviews1 {
+    height: 85%;
+    width: 70%;
+    margin: 2%;
+    position: relative;
+    align-items: center;
+}
+
+.reviews1 h1 {
+    position: absolute;
+    color: orange;
+    margin-top: 59%;
+    margin-left: 38%;
+}
+
+.reviews1 h3 {
+    color: white;
+    position: absolute;
+    margin-top: 73%;
+    margin-left: 26%;
+    font-size: 1.5rem;
+    letter-spacing: 0.09rem;
+}
+
+@media screen and (max-width:470px) {
+    .reviews {
+        display: block;
+        height: 180vh;
+    }
+
+    .reviews1 {
+        display: inline-block;
+        width: 80%;
+        height: 23%;
+        margin-left: 10%;
+        align-items: center;
+    }
+
+    .reviews1 h3 {
+        margin-left: 20%;
+        text-align: center;
+    }
+}
+
+/* //================================================TEAM======================================= */
+.ourTeam {
+    padding-top: 10%;
+    height: 30vh;
+    background-color: rgb(235, 233, 233);
+    text-align: center;
+}
+
+.ourTeam h1 {
+    font-size: 5rem;
+}
+
+.team {
+    display: flex;
+    height: 80vh;
+    background-color: rgb(235, 233, 233);
+    /* padding: 5%;  */
+    justify-content: space-evenly;
+}
+
+.team1 {
+    height: 90%;
+    width: 70%;
+    background-color: white;
+    margin: 1%;
+    text-align: center;
+    text-align: center;
+    position: relative;
+}
+
+.team1 img {
+    height: 75%;
+    width: 100%;
+}
+
+.team1 h2 {
+    margin: 0;
+    font-weight: 200;
+}
+
+
+@media screen and (max-width:700px) {
+    .ourTeam {
+        height: 10vh;
+    }
+
+    .ourTeam h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .team {
+        flex-wrap: wrap;
+        height: 280vh;
+    }
+
+    .team1 {
+        display: inline-block;
+        margin-left: 10%;
+        margin-bottom: 20%;
+        margin: 10%;
+        width: 80%;
+        height: 20%;
+    }
+}
